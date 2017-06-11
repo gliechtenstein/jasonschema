@@ -1,5 +1,6 @@
 {
   "type": "object",
+  "id": "https://gliechtenstein.github.io/jasonschema/components/component.json",
   "properties": {
     "action": {
       "type": "object"
