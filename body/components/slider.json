@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "slider"
+    },
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "action": {
+      "type": "object"
+    },
+    "style": {
+      "type": "object"
+    }
+  },
+  "required": ["type", "name"]
+}

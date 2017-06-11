@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "space"
+    },
+    "style": {
+      "type": "object"
+    }
+  },
+  "required": ["type"]
+}

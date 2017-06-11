@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "properties": {
+      "align": {
+        "type": "string"
+      },
+      "background": {
+        "type": "string"
+      },
+      "bottom": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "color:placeholder": {
+        "type": "string"
+      },
+      "color:disabled": {
+        "type": "string"
+      },
+      "corner_radius": {
+        "type": "string"
+      },
+      "font": {
+        "type": "string"
+      },
+      "height": {
+        "type": "string"
+      },
+      "left": {
+        "type": "string"
+      },
+      "move": {
+        "type": "string"
+      },
+      "opacity": {
+        "type": "string"
+      },
+      "padding": {
+        "type": "string"
+      },
+      "resize": {
+        "type": "string"
+      },
+      "right": {
+        "type": "string"
+      },
+      "rotate": {
+        "type": "string"
+      },
+      "size": {
+        "type": "string"
+      },
+      "top": {
+        "type": "string"
+      },
+      "width": {
+        "type": "string"
+      },
+      "z_index": {
+        "type": "string"
+      }
+    }
+  }
+}

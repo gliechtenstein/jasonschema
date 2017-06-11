@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": {
+                "enum": ["image", "label"]
+              }
+            },
+            "text": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "width" : {
+                  "type": "string"
+                },
+                "height": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

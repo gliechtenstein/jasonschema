@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "textarea"
+    },
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "style": {
+      "type": "object"
+    }
+  },
+  "required": ["type", "name"]
+}

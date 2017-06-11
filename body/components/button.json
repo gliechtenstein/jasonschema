@@ -1,0 +1,26 @@
+{
+  "allOf": [{
+    "properties": {
+      "type": {
+        "type": "string",
+        "pattern": "button"
+      },
+      "url": {
+        "type": "string"
+      },
+      "header": {
+        "type": "object"
+      },
+      "text": {
+        "type": "string"
+      }
+    }
+  }, {
+    "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+  }],
+  "oneOf": [{
+  	"required": ["type", "url"]
+  }, {
+    "required": ["type", "text"]
+  }]
+}

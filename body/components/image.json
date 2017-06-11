@@ -1,0 +1,22 @@
+{
+  "allOf": [{
+    "properties": {
+      "type": {
+        "type": "string",
+        "pattern": "image"
+      },
+      "url": {
+        "type": "string"
+      },
+      "header": {
+        "type": "object"
+      },
+      "header": {
+        "type": "object"
+      }
+    }
+  }, {
+    "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+  }],
+  "required": ["type", "url"]
+}

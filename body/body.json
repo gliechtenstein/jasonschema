@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/body.json",
+  "properties": {
+    "header": {
+      "type": "object"
+    },
+    "sections": {
+      "$ref": "https://gliechtenstein.github.io/jasonschema/sections.json"
+    },
+    "layers": {
+      "type": "array"
+    },
+    "footer": {
+      "type": "object"
+    }
+  }
+}

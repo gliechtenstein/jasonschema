@@ -1,0 +1,49 @@
+{
+  "title": "JASON",
+  "type": "object",
+  "properties": {
+    "$jason": {
+      "type": "object",
+      "properties": {
+        "head": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "offline": {
+              "type": "string"
+            },
+            "styles": {
+              "type": "object"
+            },
+            "actions": {
+              "type": "object"
+            },
+            "templates": {
+              "type": "object"
+            },
+            "data": {
+              "oneOf": [
+                {"type": "object"},
+                {"type": "array"}
+              ]
+            }
+          },
+          "required": [
+            "title"
+          ]
+        },
+        "body": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/body.json"
+        }
+      }
+    }
+  }
+}

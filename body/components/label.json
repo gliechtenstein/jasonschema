@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "label"
+    },
+    "text": {
+      "type": "string"
+    }
+  }, {
+    "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+  }],
+  "required": ["type", "text"]
+}

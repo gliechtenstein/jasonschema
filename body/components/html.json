@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "html"
+    },
+    "text": {
+      "type": "string",
+      "pattern": "<html>.*<\/html>"
+    },
+    "style": {
+      "type": "object",
+      "properties": {
+        "height": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        }
+      },
+      "required": ["height"]
+    },
+    "action": {
+      "type": "object"
+    }
+  },
+  "required": ["type", "text"]
+}

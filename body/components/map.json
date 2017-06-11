@@ -1,0 +1,46 @@
+{
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "map"
+    },
+    "region": {
+      "type": "object",
+      "properties": {
+        "coord": {
+          "type": "string",
+          "pattern": "(-)?[0-9]+(\.[0-9]+)?,(-)?[0-9]+(\.[0-9]+)?"
+        },
+        "width": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "height": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        }
+      }
+    },
+    "pins": {
+      "type": "object",
+      "properties": {
+        "coord": {
+          "type": "string",
+          "pattern": "(-)?[0-9]+(\.[0-9]+)?,(-)?[0-9]+(\.[0-9]+)?"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "style": {
+          "type": "object"
+        }
+      }
+    },
+    "style": {
+      "type": "object"
+    }
+  }
+}

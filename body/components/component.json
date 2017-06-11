@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "object"
+    },
+    "href": {
+      "type": "object"
+    },
+    "style": {
+      "type": "object"
+    }
+  }
+}
