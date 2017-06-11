@@ -1,6 +1,7 @@
 {
   "title": "JASON",
   "type": "object",
+  "id": "https://gliechtenstein.github.io/jasonschema/jason.json",
   "properties": {
     "$jason": {
       "type": "object",
