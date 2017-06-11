@@ -16,7 +16,7 @@
       }
     }
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/components/component.json"
   }],
   "required": ["type", "url"]
 }

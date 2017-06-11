@@ -10,7 +10,7 @@
       "type": "array",
       "items": {
         "oneOf": [{
-          "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+          "$ref": "https://gliechtenstein.github.io/jasonschema/components/component.json"
         }, {
           "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
         }]
