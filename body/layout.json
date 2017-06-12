@@ -1,9 +1,6 @@
 {
   "type": "object",
   "id": "https://gliechtenstein.github.io/jasonschema/layout.json",
-  "dependencies": {
-    "type": ["components"]
-  },
   "properties": {
     "type": {
       "type": "string",
