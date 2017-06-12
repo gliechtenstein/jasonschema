@@ -1,7 +1,7 @@
 {
   "type": "object",
   "id": "https://gliechtenstein.github.io/jasonschema/component/component.json",
-  "oneOf": [{
+  "anyOf": [{
     "$ref": "https://gliechtenstein.github.io/jasonschema/component/button.json"
   }, {
     "$ref": "https://gliechtenstein.github.io/jasonschema/component/html.json"
