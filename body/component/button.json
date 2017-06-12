@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/button.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "button"
+      "enum": ["button"]
     },
     "url": {
       "type": "string"

@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/label.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "label"
+      "enum": [ "label" ] 
     },
     "text": {
       "type": "string"

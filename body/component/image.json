@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/image.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "image"
+      "enum": ["image"]
     },
     "url": {
       "type": "string"

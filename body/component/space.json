@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/space.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "space"
+      "enum": ["space"]
     },
     "style": {
       "type": "object"

@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/textarea.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "textarea"
+      "enum": ["textarea"]
     },
     "name": {
       "type": "string"

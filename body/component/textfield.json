@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/textfield.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "textfield"
+      "enum": ["textfield"]
     },
     "name": {
       "type": "string"

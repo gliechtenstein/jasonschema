@@ -3,7 +3,6 @@
   "id": "https://gliechtenstein.github.io/jasonschema/layout.json",
   "properties": {
     "type": {
-      "type": "string",
       "enum": ["vertical", "horizontal"]
     },
     "components": {

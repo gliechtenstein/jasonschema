@@ -2,8 +2,7 @@
   "id": "https://gliechtenstein.github.io/jasonschema/component/map.json",
   "properties": {
     "type": {
-      "type": "string",
-      "pattern": "map"
+      "enum": ["map"]
     },
     "region": {
       "type": "object",
