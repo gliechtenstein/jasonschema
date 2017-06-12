@@ -7,11 +7,25 @@
       "items": {
         "type": "array",
         "items": {
-          "oneOf": [{
-            "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
-          }, {
-            "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
-          }]
+          "switch": [
+            {
+              "if": {
+                "properties": {
+                  "type": {
+                    "enum": ["vertical", "horizontal"]
+                  }
+                }
+              },
+              "then": {
+                "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+              }
+            },
+            {
+              "then": {
+                "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+              }
+            }
+          ]
         }
       }
     }
