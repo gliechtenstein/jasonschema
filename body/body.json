@@ -1,6 +1,7 @@
 {
   "type": "object",
   "id": "https://gliechtenstein.github.io/jasonschema/body/body.json",
+  "additionalProperties": false,
   "properties": {
     "header": {
       "type": "object"

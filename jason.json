@@ -5,9 +5,11 @@
   "properties": {
     "$jason": {
       "type": "object",
+      "required": ["$jason"],
       "properties": {
         "head": {
           "type": "object",
+          "additionalProperties": false,
           "properties": {
             "title": {
               "type": "string"
@@ -31,16 +33,16 @@
               "type": "object"
             },
             "data": {
-              "oneOf": [
-                {"type": "object"},
-                {"type": "array"}
-              ]
+              "type": ["object", "array"]
             }
           },
           "required": [
             "title"
           ]
         },
+        "required": [
+          "head"
+        ],
         "body": {
           "$ref": "https://gliechtenstein.github.io/jasonschema/body/body.json"
         }
