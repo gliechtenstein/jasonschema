@@ -17,12 +17,12 @@
                 }
               },
               "then": {
-                "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+                "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
               }
             },
             {
               "then": {
-                "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+                "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
               }
             }
           ]
