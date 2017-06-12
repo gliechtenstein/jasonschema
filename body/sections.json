@@ -6,9 +6,11 @@
     "properties": {
       "items": {
         "type": "array",
-        "items": {
-          "$ref": "https://gliechtenstein.github.io/jasonschema/items.json"
-        }
+        "items": [{
+          "$ref": "https://gliechtenstein.github.io/jasonschema/components/component.json"
+        }, {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+        }]
       }
     }
   }
