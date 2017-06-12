@@ -1,4 +1,5 @@
 {
+  "id": "https://gliechtenstein.github.io/jasonschema/component/slider.json",
   "properties": {
     "type": {
       "type": "string",

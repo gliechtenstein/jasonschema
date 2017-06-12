@@ -1,0 +1,23 @@
+{
+  "id": "https://gliechtenstein.github.io/jasonschema/component/label.json",
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "label"
+    },
+    "text": {
+      "type": "string"
+    },
+
+    "action": {
+      "type": "object"
+    },
+    "href": {
+      "type": "object"
+    },
+    "style": {
+      "type": "object"
+    }
+  }],
+  "required": ["type", "text"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "https://gliechtenstein.github.io/jasonschema/component/button.json",
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "button"
+    },
+    "url": {
+      "type": "string"
+    },
+    "header": {
+      "type": "object"
+    },
+    "text": {
+      "type": "string"
+    },
+
+    "action": {
+      "type": "object"
+    },
+    "href": {
+      "type": "object"
+    },
+    "style": {
+      "type": "object"
+    }
+  }],
+  "oneOf": [{
+  	"required": ["type", "url"]
+  }, {
+    "required": ["type", "text"]
+  }]
+}

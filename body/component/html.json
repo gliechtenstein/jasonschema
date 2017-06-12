@@ -1,4 +1,5 @@
 {
+  "id": "https://gliechtenstein.github.io/jasonschema/component/html.json",
   "properties": {
     "type": {
       "type": "string",

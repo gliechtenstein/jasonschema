@@ -1,0 +1,29 @@
+{
+  "id": "https://gliechtenstein.github.io/jasonschema/component/image.json",
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "image"
+    },
+    "url": {
+      "type": "string"
+    },
+    "header": {
+      "type": "object"
+    },
+    "header": {
+      "type": "object"
+    },
+
+    "action": {
+      "type": "object"
+    },
+    "href": {
+      "type": "object"
+    },
+    "style": {
+      "type": "object"
+    }
+  }],
+  "required": ["type", "url"]
+}
