@@ -24,6 +24,6 @@
     "style": {
       "type": "object"
     }
-  }],
+  },
   "required": ["type", "url"]
 }
