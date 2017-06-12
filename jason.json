@@ -2,10 +2,13 @@
   "title": "JASON Schema",
   "type": "object",
   "id": "https://gliechtenstein.github.io/jasonschema/jason.json",
+  "required": ["$jason"],
   "properties": {
     "$jason": {
       "type": "object",
-      "required": ["$jason"],
+      "required": [
+        "head"
+      ],
       "properties": {
         "head": {
           "type": "object",
@@ -40,9 +43,6 @@
             "title"
           ]
         },
-        "required": [
-          "head"
-        ],
         "body": {
           "$ref": "https://gliechtenstein.github.io/jasonschema/body/body.json"
         }
