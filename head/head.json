@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "id": "https://gliechtenstein.github.io/jasonschema/head/head.json",
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "offline": {
+      "type": "string"
+    },
+    "styles": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+      }
+    },
+    "actions": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+      }
+    },
+    "templates": {
+      "type": "object"
+    },
+    "data": {
+      "type": ["object", "array"]
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

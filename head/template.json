@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "additionProperties": {
+    "header": {
+      "type": "object"
+    },
+    "sections": {
+      "oneOf": [{
+        "type": "array",
+        "items": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/sections.json"
+        }
+      }, {
+        "patternProperties": {
+          "{{#each.*}}": {
+            "type": "object",
+            "properties": {
+              "$ref": "https://gliechtenstein.github.io/jasonschema/body/sections.json"
+            }
+          }
+        }
+      }]
+    },
+    "layers": {
+      "type": "array"
+    },
+    "footer": {
+      "type": "object"
+    }
+  }
+}

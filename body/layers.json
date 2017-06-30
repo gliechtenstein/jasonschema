@@ -1,14 +1,84 @@
 {
+  "definitions": {
+    "style": {
+      "additionalProperties": false,
+      "properties": {
+        "top": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "left": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "bottom": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "right": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "width": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "height": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "corner_radius": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "(#[0-9a-zA-Z]+)|(rgb\([0-9.]+,[0-9.]+,[0-9.]+\))|(rgba\([0-9.]+,[0-9.]+,[0-9.]+\,[0-9.]+\))"
+        },
+        "resize": {
+          "enum": ["true"]
+        },
+        "move": {
+          "enum": ["true"]
+        },
+        "rotate": {
+          "enum": ["true"]
+        }
+      }
+    }
+  },
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "object"
+      "oneOf": [{
+        "type": {
+          "enum": ["label"]
+        },
+        "text": {
+          "type": "string"
+        },
+        "action": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+        },
+        "style": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
         }
-      }
+      }, {
+        "type": {
+          "enum": ["image"]
+        },
+        "url": {
+          "type": "string",
+          "pattern": "http:.*"
+        },
+        "action": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+        },
+        "style": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+        }
+      }]
     }
   }
 }

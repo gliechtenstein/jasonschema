@@ -1,9 +1,12 @@
 {
-  "type": "array",
-  "id": "https://gliechtenstein.github.io/jasonschema/sections.json",
-  "items": {
-    "type": "object",
-    "properties": {
+  "id": "https://gliechtenstein.github.io/jasonschema/body/sections.json",
+  "type": "object",
+  "properties": {
+    "anyOf": [{
+      "type": {
+        "enum": ["horizontal", "vertical"]
+      }
+    }, {
       "items": {
         "type": "array",
         "items": {
@@ -14,6 +17,14 @@
           }]
         }
       }
-    }
+    }, {
+      "header": {
+        "oneOf": [{
+          "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+        }, {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+        }]
+      }
+    }]
   }
 }

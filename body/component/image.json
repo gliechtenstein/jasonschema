@@ -24,5 +24,6 @@
       "type": "object"
     }
   },
-  "required": ["type", "url"]
+  "required": ["type", "url"],
+  "additionalProperties": false
 }

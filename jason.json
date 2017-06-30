@@ -10,37 +10,7 @@
       ],
       "properties": {
         "head": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "title": {
-              "type": "string"
-            },
-            "description": {
-              "type": "string"
-            },
-            "icon": {
-              "type": "string"
-            },
-            "offline": {
-              "type": "string"
-            },
-            "styles": {
-              "type": "object"
-            },
-            "actions": {
-              "type": "object"
-            },
-            "templates": {
-              "type": "object"
-            },
-            "data": {
-              "type": ["object", "array"]
-            }
-          },
-          "required": [
-            "title"
-          ]
+          "$ref": "https://gliechtenstein.github.io/jasonschema/head/head.json"
         },
         "body": {
           "$ref": "https://gliechtenstein.github.io/jasonschema/body/body.json"

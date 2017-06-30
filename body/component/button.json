@@ -28,5 +28,6 @@
   	"required": ["type", "url"]
   }, {
     "required": ["type", "text"]
-  }]
+  }],
+  "additionalProperties": false
 }

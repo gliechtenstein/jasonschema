@@ -4,16 +4,22 @@
   "additionalProperties": false,
   "properties": {
     "header": {
-      "type": "object"
+      "$ref": "https://gliechtenstein.github.io/jasonschema/body/header.json"
     },
     "sections": {
-      "$ref": "https://gliechtenstein.github.io/jasonschema/sections.json"
+      "type": "array",
+      "items": {
+        "$ref": "https://gliechtenstein.github.io/jasonschema/body/sections.json"
+      }
     },
     "layers": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "$ref": "https://gliechtenstein.github.io/jasonschema/body/layers.json"
+      }
     },
     "footer": {
-      "type": "object"
+      "$ref": "https://gliechtenstein.github.io/jasonschema/body/footer.json"
     }
   }
 }

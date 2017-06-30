@@ -8,5 +8,6 @@
       "type": "object"
     }
   },
-  "required": ["type"]
+  "required": ["type"],
+  "additionalProperties": false
 }

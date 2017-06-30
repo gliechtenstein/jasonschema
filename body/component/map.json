@@ -42,5 +42,6 @@
     "style": {
       "type": "object"
     }
-  }
+  },
+  "additionalProperties": false
 }

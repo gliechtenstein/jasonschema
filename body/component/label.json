@@ -18,5 +18,6 @@
       "type": "object"
     }
   },
-  "required": ["type", "text"]
+  "required": ["type", "text"],
+  "additionalProperties": false
 }

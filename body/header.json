@@ -1,6 +1,9 @@
 {
   "type": "object",
   "properties": {
+    "style": {
+      "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+    },
     "title": {
       "oneOf": [
         { "type": "string" },
@@ -32,6 +35,52 @@
           }
         }
       ]
+    },
+    "search": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "placeholder": {
+          "type": "string"
+        },
+        "action": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+        },
+        "style": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+        }
+      }
+    },
+    "menu": {
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "action": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+        },
+        "href": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/href/href.json"
+        },
+        "style": {
+          "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+        },
+        "badge": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "style": {
+              "$ref": "https://gliechtenstein.github.io/jasonschema/style/style.json"
+            }
+          }
+        }
+      }
     }
   }
 }

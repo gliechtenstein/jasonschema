@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "oneOf": [{
+    "properties": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "left": {
+            "additionalProperties": false,
+            "properties": {
+              "image": {
+                "type": "string"
+              },
+              "action": {
+                "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+              },
+              "style": {
+                "properties": {
+                  "color": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "textfield": {
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "placeholder": {
+                "type": "string"
+              },
+              "style": {
+                "properties": {
+                  "color": {
+                    "type": "string"
+                  },
+                  "color:placeholder": {
+                    "type": "string"
+                  },
+                  "background": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "action": {
+                "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+              },
+              "style": {
+                "properties": {
+                  "color": {
+                    "type": "string"
+                  },
+                  "color:disabled": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "style": {
+            "properties": {
+              "background": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }, {
+    "properties": {
+      "tabs": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "style": {
+                  "type": "object",
+                  "properties": {
+                    "width": {
+                      "type": "string",
+                      "pattern": "[0-9]+"
+                    },
+                    "height": {
+                      "type": "string",
+                      "pattern": "[0-9]+"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "badge": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "href": {
+                  "$ref": "https://gliechtenstein.github.io/jasonschema/href.json"
+                },
+                "action": {
+                  "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+                }
+              }
+            }
+          },
+          "style": {
+            "properties": {
+              "color": {
+                "type": "string"
+              },
+              "color:disabled": {
+                "type": "string"
+              },
+              "background": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }]
+}
