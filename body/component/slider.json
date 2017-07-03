@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/slider.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/slider.json",
   "properties": {
     "type": {
       "enum": ["slider"]

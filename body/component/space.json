@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/space.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/space.json",
   "properties": {
     "type": {
       "enum": ["space"]

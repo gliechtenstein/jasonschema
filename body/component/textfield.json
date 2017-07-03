@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/textfield.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/textfield.json",
   "properties": {
     "type": {
       "enum": ["textfield"]

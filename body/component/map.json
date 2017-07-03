@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/map.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/map.json",
   "properties": {
     "type": {
       "enum": ["map"]

@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/textarea.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/textarea.json",
   "properties": {
     "type": {
       "enum": ["textarea"]

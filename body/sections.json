@@ -11,18 +11,18 @@
         "type": "array",
         "items": {
           "oneOf": [{
-            "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+            "$ref": "https://gliechtenstein.github.io/jasonschema/body/layout.json"
           }, {
-            "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+            "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/component.json"
           }]
         }
       }
     }, {
       "header": {
         "oneOf": [{
-          "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/layout.json"
         }, {
-          "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/component.json"
         }]
       }
     }]
