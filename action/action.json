@@ -12,10 +12,10 @@
       "type": "object"
     },
     "success": {
-      "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+      "type": "object"
     },
     "error": {
-      "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"
+      "type": "object"
     }
   }
 }

@@ -1,23 +1,23 @@
 {
   "type": "object",
-  "id": "https://gliechtenstein.github.io/jasonschema/component/component.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/component.json",
   "anyOf": [{
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/button.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/button.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/html.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/html.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/image.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/image.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/label.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/label.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/map.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/map.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/slider.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/slider.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/space.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/space.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/textarea.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/textarea.json"
   }, {
-    "$ref": "https://gliechtenstein.github.io/jasonschema/component/textfield.json"
+    "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/textfield.json"
   }]
 }

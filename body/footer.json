@@ -114,7 +114,7 @@
                   "type": "string"
                 },
                 "href": {
-                  "$ref": "https://gliechtenstein.github.io/jasonschema/href.json"
+                  "$ref": "https://gliechtenstein.github.io/jasonschema/href/href.json"
                 },
                 "action": {
                   "$ref": "https://gliechtenstein.github.io/jasonschema/action/action.json"

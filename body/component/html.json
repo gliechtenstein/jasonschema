@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/html.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/html.json",
   "properties": {
     "type": {
       "enum": ["html"]

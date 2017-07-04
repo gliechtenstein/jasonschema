@@ -1,5 +1,5 @@
 {
-  "id": "https://gliechtenstein.github.io/jasonschema/component/button.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/component/button.json",
   "properties": {
     "type": {
       "enum": ["button"]

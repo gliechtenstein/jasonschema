@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "id": "https://gliechtenstein.github.io/jasonschema/layout.json",
+  "id": "https://gliechtenstein.github.io/jasonschema/body/layout.json",
   "properties": {
     "type": {
       "enum": ["vertical", "horizontal"]
@@ -9,9 +9,9 @@
       "type": "array",
       "items": {
         "oneOf": [{
-          "$ref": "https://gliechtenstein.github.io/jasonschema/component/component.json"
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/component/component.json"
         }, {
-          "$ref": "https://gliechtenstein.github.io/jasonschema/layout.json"
+          "$ref": "https://gliechtenstein.github.io/jasonschema/body/layout.json"
         }]
       }
     }
